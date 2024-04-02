@@ -1,5 +1,5 @@
 import React from "react";
-import { PokemonsContainer } from "./containers/PokemonsContainer";
+import { PokemonsContainer } from "./components/PokemonsContainer";
 
 export default function App() {
   return (

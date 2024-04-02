@@ -28,10 +28,12 @@ body {
 =========================================== */
 .container {
   display: flex;
-  max-width: 550px;
+  max-width: 80%;
   margin: auto;
-  flex-wrap: wrap;
+  height: 100vh;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 .container p {
@@ -39,14 +41,14 @@ body {
 }
 
 .container .pokemon {
-  width: 49%;
+  width: 20%;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   overflow: hidden;
-  margin-bottom: 20px;
+  /* margin: 5px; */
 }
 
 .container .pokemon__name {
@@ -84,7 +86,7 @@ body {
 }
 
 .container .pokemon__attacks span {
-  width: 30%;
+  width: 32%;
   background-color: #f16820;
   border-radius: 3px;
   padding: 7px;
